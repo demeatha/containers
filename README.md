@@ -1,4 +1,4 @@
-# containerized
+# containers
 Docker containers on my synology server
 
 <img width="29" alt="image" src="https://github.com/user-attachments/assets/3523281e-fbf2-49c6-9281-2133c832533a" />
@@ -36,8 +36,6 @@ services:
       - /volume1/media:/media  # Adjust if your media is elsewhere
 ```
 
-````
-
 ## ⚙️ Synology 
 
 ### 1. Create a dedicated Plex user
@@ -52,7 +50,7 @@ SSH into your NAS:
 
 ```bash
 id plexuser
-````
+```
 
 Example:
 
